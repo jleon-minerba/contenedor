@@ -17,7 +17,7 @@ public class OperacionRESTAdapter extends ResourceRESTAdapter {
     public ResponseEntity<List<String>> getMessages() {
         final List<String> mensajes = new ArrayList<>();
         mensajes.add("Hola");
-        mensajes.add("Mundo");
+        mensajes.add("Mundo!");
         return new ResponseEntity<>(mensajes, HttpStatus.OK);
     } 
 
